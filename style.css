@@ -28,8 +28,11 @@ header .row{
 .section-three
 {
     background-color: #1ABC9C;
-    height:50vh;
+    height:70vh;
     width:100%;
+}
+.section-three{
+    height:80vh;
 }
 
 .section-one h2{
@@ -109,7 +112,7 @@ header .row{
 
 .section-four{
     width:100%;
-    height:50vh;
+    height:60vh;
 }
 
 .section-four h2{
