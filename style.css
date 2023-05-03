@@ -120,6 +120,7 @@ header .row{
 
 .section-four .container-0auto{
     width:70%;
+    height:85%;
     color:#333333;
     text-align:left;
     border-bottom:1px solid #747373; 
@@ -172,12 +173,22 @@ header .row{
     }
 
     .section-three{
-        height:35vh;
+        height:42vh;
         width:100%;
     }
     .section-three .container-0auto{
         width:65%;
         padding-right:1rem;
+    }
+
+    .section-four .container-0auto{
+        width:60%; 
+    }
+
+    .send{
+        position:relative;
+        left:20%;
+        bottom:5%;
     }
 }
 
@@ -198,4 +209,16 @@ header .row{
         height:40vh;
         width:100%;
     }
+
+    .section-four{
+        width:100%;
+        height:70vh;
+        background-color: yellowgreen;
+    }
+
+    .send{
+        bottom:3%;
+    }
+
+    
 }
