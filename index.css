@@ -7,7 +7,7 @@
 
 .container-fluid{
     width:100%;
-    margin:0 auto;
+    margin:0;
 }
 
 .row{
@@ -125,4 +125,19 @@
 .offset-1{
     margin-left: calc((100% / 12) * 1);
     height:1.5rem;
+}
+
+
+/*UTILITIES*/
+
+.bold{
+    font-weight: bold;
+}
+
+.centered{
+    justify-content: center;
+}
+
+.display-none{
+    display:none;
 }
