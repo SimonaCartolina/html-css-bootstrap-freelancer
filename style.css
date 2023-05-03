@@ -19,7 +19,6 @@ header .row{
     margin:0 auto;
     padding-top:2rem;
     margin-bottom:2rem;
-    background-color: pink;
     color:white;
     text-align:center;
     justify-content: center;
@@ -85,7 +84,7 @@ header .row{
 
 .section-two .col-12{
     width:22rem;
-    height:20rem;
+    height:21rem;
     margin-bottom:2rem;
 }
 .section-two img{
@@ -111,7 +110,6 @@ header .row{
 .section-four{
     width:100%;
     height:50vh;
-    background-color: yellowgreen;
 }
 
 .section-four h2{
@@ -195,25 +193,28 @@ header .row{
 
 /*responsiveness for desktop*/
 @media screen and (min-width:992px){
+
+    .section-one{
+        height:63vh;
+    }
     .section-two .container-0auto{
         width:75%;
     }
 
     .section-two .col-12{
         width:20rem;
-        height:12rem;
+        height:15rem;
         margin-bottom:2rem;
     }
 
     .section-three{
-        height:40vh;
+        height:53vh;
         width:100%;
     }
 
     .section-four{
         width:100%;
         height:70vh;
-        background-color: yellowgreen;
     }
 
     .send{
