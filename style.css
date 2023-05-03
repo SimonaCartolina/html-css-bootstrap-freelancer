@@ -129,6 +129,15 @@ header .row{
         height:16rem;
         margin-bottom:2rem;
     }
+
+    .section-three{
+        height:35vh;
+        width:100%;
+    }
+    .section-three .container-0auto{
+        width:65%;
+        padding-right:1rem;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -140,5 +149,10 @@ header .row{
         width:20rem;
         height:12rem;
         margin-bottom:2rem;
+    }
+
+    .section-three{
+        height:45vh;
+        width:100%;
     }
 }
