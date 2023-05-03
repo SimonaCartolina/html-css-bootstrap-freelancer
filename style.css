@@ -119,6 +119,7 @@ header .row{
 }
 
 .section-four .container-0auto{
+    width:70%;
     color:#333333;
     text-align:left;
     border-bottom:1px solid #747373; 
@@ -127,7 +128,21 @@ header .row{
     border-bottom:1px solid #747373; 
 }
 
+.send{
+    position:relative;
+    left:15%;
+    bottom:5%;
+    background-color: #1ABC9C;
+    color:white;
+    padding:0.10rem 0.50rem;
+    text-align: center;
+    width:5rem;
+    border-radius:10px;
 
+}
+
+
+/*responsiveness for tablet*/
 
 @media screen and (min-width:768px) {
     .section-two .container-0auto{
@@ -166,6 +181,8 @@ header .row{
     }
 }
 
+
+/*responsiveness for desktop*/
 @media screen and (min-width:992px){
     .section-two .container-0auto{
         width:75%;
