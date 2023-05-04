@@ -1,5 +1,5 @@
 *{
-    transition: all 0.50s ease;
+    transition: all 0.30s ease;
 }
 
 .navbar{
@@ -41,4 +41,20 @@
 
 .section-four .container-0auto{
     width:60%;
+}
+footer{
+    background-color:#3A546D;
+}
+footer h3{
+    font-size:1rem;
+}
+footer li{
+    list-style:none;
+    width:2.5rem;
+    height:2.5rem;
+    border:1px solid white;
+    border-radius:50%;
+}
+.below-footer{
+    background-color: #2C3E50;
 }
