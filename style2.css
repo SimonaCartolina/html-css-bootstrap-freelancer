@@ -44,3 +44,8 @@ header{
 .section-four .line{
     background-color: #333333;
 }
+
+.section-four .container-0auto{
+    width:60%;
+    margin:0 auto;
+}
