@@ -2,8 +2,7 @@
     transition: all 0.50s ease;
 }
 
-header{
-    width:100%;
+.navbar{
     background-color:#2C3E50;
 }
 
@@ -16,19 +15,14 @@ header{
 .section-three
 {
     background-color: #1ABC9C;
-    width:100%;
 }
-.section-three{
-    overflow:scroll;
-}
+
 .section-three .container-0auto{
     width:70%;
 }
 
 .section-three p{
     text-align: left;
-    font-size:0.80rem;
-    line-height: 2rem;
 }
 
 .line{
@@ -47,5 +41,4 @@ header{
 
 .section-four .container-0auto{
     width:60%;
-    margin:0 auto;
 }

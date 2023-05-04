@@ -13,28 +13,27 @@
 <body>
     <!--top nav-->
 
-    <header class="text-white">
-        <div class="container-fluid pb-3">
-            <div class="row space-between">
-                <div class="col-11 col-md-6 col-lg-4 bold">
-                        START BOOTSTRAP
-                </div>
-
-
-                <div class="col-sm-1 block">
-                        <i class="fa-solid fa-bars" style="color: #c0c0c0;"></i>
-                </div>
-
-                <div class="col-md-6 col-lg-8 display-none ">
-                    <div class="row bold">
-                        <div class="col-md-2">PORTFOLIO</div>
-                        <div class="col-md-1">ABOUT</div>
-                        <div class="col-md-1">CONTACT</div>
-                    </div>
+        <nav class="navbar navbar-expand-lg px-5">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand  text-white bold px-5" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-end px-5" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
+                    <li class="nav-item px-5">
+                    <a class="nav-link active  text-white bold" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item px-2">
+                    <a class="nav-link  text-white bold" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item px-2">
+                    <a class="nav-link  text-white bold" href="#">CONTACT</a>
+                    </li>
+                </ul>
                 </div>
             </div>
-        </div>
-    </header>
+        </nav>
     
 
     <main>
@@ -120,11 +119,11 @@
 
                 <div class="row">
                     <div class="col-12 col-md-6 col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic quasi harum est consequatur vitae. 
+                        <p class="lh-3 fs-0.5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic quasi harum est consequatur vitae. 
                             Non eius consequuntur deserunt enim, unde delectus natus libero sint perspiciatis doloribus voluptatibus aut neque.</p>
                     </div>
                     <div class="col-12 col-md-6 col-md-6">
-                        <p>
+                        <p class="lh-3 fs-0.5">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, nihil aliquam praesentium asperiores esse ipsam assumenda voluptas 
                             consequuntur earum, nostrum, necessitatibus exercitationem iure eveniet voluptatem facilis officia laborum eius distinctio!
                         </p>
@@ -144,7 +143,7 @@
 
         <section class="section-four pt-5">
 
-            <div class="container-0auto">
+            <div class="container-0auto m-auto">
 
                 <h2 class="d-flex justify-content-center">
                     CONTACT ME
@@ -157,28 +156,25 @@
 
                 <div class="row mb-3">
 
-                    <div class="col-12">
+                    <div class="col-12 mb-2">
                         <input type="text" class="form-control" placeholder="Name" aria-label="Name">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 mb-2">
                         <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 mb-2">
                         <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 mb-2">
                         <input type="text" class="form-control" placeholder="Message" aria-label="Message">
                     </div>
                 </div>
 
                 <button type="button" class="btn btn-primary">Send</button>
-
-
         </section>
-
     </main>
 
 </body>
