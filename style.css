@@ -165,19 +165,7 @@ header{
         justify-content: space-around;
     }
 
-    .display-none{
-        display:block;
-    }
-
-    .block{
-        display:none;
-    }
-
-    .section-two .col-12{
-        width:20rem;
-        height:16rem;
-        margin-bottom:2rem;
-    }
+    
 
     .section-three{
         height:42vh;
