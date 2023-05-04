@@ -16,7 +16,16 @@ header{
     width:100%;
 }
 .section-three{
-    height:80vh;
+    height:30vh;
+}
+.section-three .container-0auto{
+    width:70%;
+}
+
+.section-three p{
+    text-align: left;
+    font-size:0.80rem;
+    line-height: 2rem;
 }
 
 .line{
